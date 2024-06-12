@@ -5,7 +5,7 @@ import AboutImg from '../utilis/img/upperviewrest.jpg'
 import { Link } from 'react-router-dom'
 import { ImageGallery } from '../components/ImageGallery'
 import { ContactInfo } from '../components/ContactInfo'
-import ContactImage from '../utilis/img/chef2.jpg'
+
 
 function Home() {
   return (
@@ -16,7 +16,7 @@ function Home() {
           <div className='col-sm-6 d-flex d-sm-block flex-column align-items-center'>
               <h2 className='mb-0 text-black fw-bold'>Welcome To</h2>
               <h1 className='mb-5 text-black fw-bold text-center text-sm-start'>Restaurant Z</h1>
-              <MenuBtn/>
+             
           </div>
         </div>
        </div>
@@ -105,12 +105,11 @@ function Home() {
                  <div className='col-lg-6 d-flex flex-column align-items-center justify-content-center mb-5 mb-lg-0'>
                     <ContactInfo/>
                  </div>
-                 <div classname='col-lg-6 d-flex justify-content-center'>
-                    <img src={ContactImage} classname='img-fluid w-50' alt=""/>
+                 
                  </div>
                 </div>
             </div>
-        </div>
+        
   )
 }
 

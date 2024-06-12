@@ -6,6 +6,9 @@ import Gallery4 from '../utilis/img/sushidisp.jpg'
 import Gallery5 from '../utilis/img/breakfast.jpg'
 import Gallery6 from '../utilis/img/pancakes.jpg'
 
+
+
+
 export function ImageGallery(){
  return(
     <div className='container py-5'>
@@ -32,7 +35,8 @@ export function ImageGallery(){
                 alt=""/>
              </div>
              
-            </div> <div className='col-md-4 px-2'>
+            </div> 
+            <div className='col-md-4 px-2'>
              <div className="my-3">
                 <img src={Gallery5} className="img-fluid"
                 alt=""/>
@@ -42,7 +46,10 @@ export function ImageGallery(){
                 alt=""/>
              </div>
              
+             
             </div> 
+
+            
         </div>
     </div>
  )
