@@ -37,7 +37,7 @@ function App() {
    </Routes>
 
    <footer className='bg body-tertiary'>
-    <p className='p-3 m-0 text-center'>copyright  @ made by Karel254</p>
+    <p className='p-3 m-0 text-center bg-dark text-light bg-gradient'>copyright  @ made by Karel254</p>
     </footer>
     </div>
   );
