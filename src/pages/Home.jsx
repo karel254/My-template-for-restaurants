@@ -54,8 +54,8 @@ function Home() {
                                 </li>
 
                                 <li className='d-flex justify-content-between'>
-                                    <p className='fs-3 mx-2'>French Breakfast</p>
-                                    <p className='fs-3 mx-2 text-success fwbold'>Ksh 2350</p>
+                                    <p className='fs-3 mx-2'>Bavarian Pancakes</p>
+                                    <p className='fs-3 mx-2 text-success fwbold'>Ksh 1350</p>
                                 </li>
 
                                 <li className='d-flex justify-content-between'>
